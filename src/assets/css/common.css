@@ -1,0 +1,80 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #282c34;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .header {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #282c34;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+  }
+
+  .header h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .room-list {
+    padding: 15px;
+    overflow-y: auto;
+    height: 300px;
+  }
+
+  .room-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  .room-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: 1px solid #eee;
+  }
+
+  .tab {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border-right: 1px solid #fff; /* 버튼을 구분할 수 있는 선 */
+    background-color: #fff; /* 각 tab 영역의 배경색 */
+  }
+
+  .tab:last-child {
+    border-right: none; /* 마지막 tab의 오른쪽 선 제거 */
+  }
+
+  .tab.active {
+    background-color: #282c34; /* 선택된 tab의 배경색 */
+    color: #fff; /* 선택된 tab의 글자색 */
+  }
+
+  .content-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+
+  .content {
+    width: 100%;
+  }
