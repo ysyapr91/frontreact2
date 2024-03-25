@@ -27,24 +27,6 @@
     font-size: 20px;
   }
 
-  .room-list {
-    padding: 15px;
-    overflow-y: auto;
-    height: 300px;
-  }
-
-  .room-item {
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #eee;
-    cursor: pointer;
-  }
-
-  .room-item:hover {
-    background-color: #f0f0f0;
-  }
-
   .footer {
     display: flex;
     justify-content: space-between;
@@ -77,4 +59,22 @@
 
   .content {
     width: 100%;
+  }
+
+  .room-list {
+    padding: 15px;
+    overflow-y: auto;
+    height: 300px;
+  }
+
+  .room-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  .room-item:hover {
+    background-color: #f0f0f0;
   }
