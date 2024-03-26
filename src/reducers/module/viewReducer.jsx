@@ -13,7 +13,6 @@ const initState = {
     main: null
   },
   pageList: {
-    //main: [<Pages.ChatList />, <Pages.Test1 />, <Pages.Test2 />]
     main: [],
     mainTab: []
   },

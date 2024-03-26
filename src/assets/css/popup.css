@@ -4,6 +4,7 @@
     right: 0;
     bottom: 0;
     left: 0;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.5); /* 반투명 배경색 */
     z-index: 1000; /* 팝업 위에 배치 */
 }  
