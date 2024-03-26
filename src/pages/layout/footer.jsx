@@ -16,7 +16,12 @@ function Footer() {
   return (
     <div className="footer">
       {items.map((tab, idx) => (
-        <div className={`tab ${idx === tabIdx ? 'active' : ''}`} onClick={() => switchTab(idx)}>{tab.page}</div>
+        <div 
+          key={idx}
+          className={`tab ${idx === tabIdx ? 'active' : ''}`}
+          onClick={() => switchTab(idx)}>
+          {tab.page}
+        </div>
       ))}
     </div>
   );
